@@ -1,0 +1,15 @@
+.vscode
+env/
+__pycache__/
+*.pyc
+fake_data.py
+*.log
+migrations/
+initial_data.json
+.coverage
+dump.rdb
+celerybeat-schedule
+celerybeat.pid
+*.zip
+conf/
+api_keys.py

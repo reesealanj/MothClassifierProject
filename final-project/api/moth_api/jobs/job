@@ -1,0 +1,15 @@
+digraph {
+	subgraph cluster_jobs_Job_status {
+		graph [label="jobs.Job.status"]
+		"jobs.job.status.error" [label=error shape=doublecircle]
+		"jobs.job.status.done" [label=done shape=doublecircle]
+		"jobs.job.status.issued" [label=issued shape=circle]
+		"jobs.job.status._initial" [label="" shape=point]
+		"jobs.job.status._initial" -> "jobs.job.status.issued"
+		"jobs.job.status.running" [label=running shape=circle]
+		"jobs.job.status.issued" -> "jobs.job.status.running" [label=run]
+		"jobs.job.status.running" -> "jobs.job.status.done" [label=finish]
+		"jobs.job.status.running" -> "jobs.job.status.error" [label=error]
+		"jobs.job.status.issued" -> "jobs.job.status.error" [label=error]
+	}
+}

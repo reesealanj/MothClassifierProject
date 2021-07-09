@@ -1,0 +1,10 @@
+DEFAULT_SPECIES = 'unknown'
+MIN_ACCURACY = 95
+
+API_JOB_CHANNEL = 'job_channel'
+ML_CHANNEL = 'ml_channel'
+REDIS_HOST = 'localhost'
+REDIS_PORT = 6379
+
+TRAINING_FILE = 'training.zip'
+TRAINING_REFRESH_SIZE = 1000

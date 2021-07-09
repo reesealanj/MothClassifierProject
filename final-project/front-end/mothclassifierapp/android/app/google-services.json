@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "728554582387",
+    "firebase_url": "https://moth-classifier.firebaseio.com",
+    "project_id": "moth-classifier",
+    "storage_bucket": "moth-classifier.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728554582387:android:a55c2eedffb04afb201506",
+        "android_client_info": {
+          "package_name": "com.mothclassifier.www"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728554582387-d8f2qc0hmeq9u95c916oluri88ivfc09.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mothclassifier.www",
+            "certificate_hash": "1afabdbb525b42e9924de458b9d128ee6540231a"
+          }
+        },
+        {
+          "client_id": "728554582387-q198uifpe8cqv2d53n61d35ovtlajk49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMgi23Jx4AjN1iGXpLF7AsOIiroNmyO8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728554582387-q198uifpe8cqv2d53n61d35ovtlajk49.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "728554582387-417ar5kbb2p4dj9k5a7f95q8vd7ntbt0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mothclassifier.www"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
